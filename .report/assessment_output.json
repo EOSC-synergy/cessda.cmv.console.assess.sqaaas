@@ -1389,23 +1389,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "tVTVhKg1RxSAS6PET_EEMQ",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/tVTVhKg1RxSAS6PET_EEMQ",
-                "createdAt": "2024-05-23T13:33:17.506973594Z",
+                "entityId": "2qM6Cg1vQPujxMatg_0IDw",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/2qM6Cg1vQPujxMatg_0IDw",
+                "createdAt": "2024-05-23T13:34:20.391802038Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "IDUsZJpNQPuiJpPwmJ8iJw",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/tVTVhKg1RxSAS6PET_EEMQ/image",
+                "image": "https://api.eu.badgr.io/public/assertions/2qM6Cg1vQPujxMatg_0IDw/image",
                 "recipient": {
-                    "identity": "sha256$11b97bec9c9cc17bf0efe635cd1f20ec154f46591f137c99b37aa1c8b3dbe9ef",
+                    "identity": "sha256$a156ecf4dbfc5ad0ff364b2547b02a6a057b309d75508428c07e23eb39b3e853",
                     "hashed": true,
                     "type": "url",
-                    "salt": "6jMAU2PW6ku1anT1",
+                    "salt": "29I1pqt5Pr6jZkix",
                     "plaintextIdentity": "https://github.com/cessda/cessda.cmv.console"
                 },
-                "issuedOn": "2024-05-23T13:33:17.506978217Z",
+                "issuedOn": "2024-05-23T13:34:20.391806475Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/cessda/cessda.cmv.console (commit: 6f74ee1ff36e4aa64519419eb404b8b2152063c6, branch/tag: main)",
                 "evidence": [
                     {
@@ -1423,7 +1423,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/tVTVhKg1RxSAS6PET_EEMQ"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/2qM6Cg1vQPujxMatg_0IDw"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw"
@@ -1435,10 +1435,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-tVTVhKg1RxSAS6PET_EEMQ.png"
+                "imagePath": "uploads/badges/assertion-2qM6Cg1vQPujxMatg_0IDw.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/tVTVhKg1RxSAS6PET_EEMQ?identity__url=https%3A//github.com/EOSC-synergy/cessda.cmv.console.assess.sqaaas/commit/2969c2f21601227e059cec5793fd7b7a064668ff\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/tVTVhKg1RxSAS6PET_EEMQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FtVTVhKg1RxSAS6PET_EEMQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fcessda.cmv.console.assess.sqaaas%2Fcommit%2F2969c2f21601227e059cec5793fd7b7a064668ff&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fcessda.cmv.console.assess.sqaaas%2Fcommit%2F2969c2f21601227e059cec5793fd7b7a064668ff"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/2qM6Cg1vQPujxMatg_0IDw?identity__url=https%3A//github.com/EOSC-synergy/cessda.cmv.console.assess.sqaaas/commit/2969c2f21601227e059cec5793fd7b7a064668ff\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/2qM6Cg1vQPujxMatg_0IDw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F2qM6Cg1vQPujxMatg_0IDw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fcessda.cmv.console.assess.sqaaas%2Fcommit%2F2969c2f21601227e059cec5793fd7b7a064668ff&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fcessda.cmv.console.assess.sqaaas%2Fcommit%2F2969c2f21601227e059cec5793fd7b7a064668ff"
         }
     }
 }
