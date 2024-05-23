@@ -1,0 +1,58 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.0.1
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/cessda/cessda.cmv.console:
+      branch: main
+      repo: https://github.com/cessda/cessda.cmv.console
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/cessda/cessda.cmv.console git:
+        commands:
+        - /usr/bin/env sh .sqa/script.snappy-ochre-fly.sh
+        container: qc.acc_stuffy-cerulean-lobster
+  QC.Doc:
+    repos:
+      github.com/cessda/cessda.cmv.console find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.wiggy-purple-wasp.sh
+        container: qc.doc_skanky-persimmon-peccary
+      github.com/cessda/cessda.cmv.console git:
+        commands:
+        - /usr/bin/env sh .sqa/script.geeky-olive-shrimp.sh
+        container: qc.doc_cheeky-cerulean-whale
+      github.com/cessda/cessda.cmv.console markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.shabby-teal-forest.sh
+        container: qc.doc_baggy-sangria-schnauzer
+  QC.Lic:
+    repos:
+      github.com/cessda/cessda.cmv.console licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.scummy-cardinal-setter.sh
+        container: qc.lic_foggy-grey-angelfish
+  QC.Met:
+    repos:
+      github.com/cessda/cessda.cmv.console cff-converter-python:
+        commands:
+        - /usr/bin/env sh .sqa/script.messy-brown-mastiff.sh
+        container: qc.met_randy-pear-chamois
+  QC.Sty:
+    repos:
+      github.com/cessda/cessda.cmv.console checkstyle:
+        commands:
+        - /usr/bin/env sh .sqa/script.gummy-lemon-goat.sh
+        container: qc.sty_crappy-myrtle-butterfly
+  QC.Ver:
+    repos:
+      github.com/cessda/cessda.cmv.console get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.fuzzy-gold-wolverine.sh
+        container: qc.ver_squeaky-vermilion-sheepdog
+timeout: 5400
