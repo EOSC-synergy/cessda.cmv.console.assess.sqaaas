@@ -15,44 +15,44 @@ sqa_criteria:
     repos:
       github.com/cessda/cessda.cmv.console git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-copper-frigatebird.sh
-        container: qc.acc_dorky-chocolate-caiman
+        - /usr/bin/env sh .sqa/script.flaky-vermilion-mule.sh
+        container: qc.acc_flabby-aquamarine-affenpinscher
   QC.Doc:
     repos:
       github.com/cessda/cessda.cmv.console find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-eggplant-penguin.sh
-        container: qc.doc_surly-sapphire-mongrel
+        - /usr/bin/env sh .sqa/script.lovely-xanthic-seal.sh
+        container: qc.doc_sleazy-cinnabar-rattlesnake
       github.com/cessda/cessda.cmv.console git:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-russet-quoll.sh
-        container: qc.doc_hazy-turquoise-chihuahua
+        - /usr/bin/env sh .sqa/script.scaly-cinnabar-duck.sh
+        container: qc.doc_droopy-bronze-wombat
       github.com/cessda/cessda.cmv.console markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-celadon-stingray.sh
-        container: qc.doc_paltry-seashell-russel
+        - /usr/bin/env sh .sqa/script.craggy-apricot-meerkat.sh
+        container: qc.doc_hasty-goldenrod-bombay
   QC.Lic:
     repos:
       github.com/cessda/cessda.cmv.console licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-charcoal-jackal.sh
-        container: qc.lic_crabby-heliotrope-chinook
+        - /usr/bin/env sh .sqa/script.queasy-purple-bobcat.sh
+        container: qc.lic_geeky-harlequin-fousek
   QC.Met:
     repos:
       github.com/cessda/cessda.cmv.console cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-pumpkin-malamute.sh
-        container: qc.met_snippy-gold-affenpinscher
+        - /usr/bin/env sh .sqa/script.homely-denim-gerbil.sh
+        container: qc.met_foggy-gold-gar
   QC.Sty:
     repos:
       github.com/cessda/cessda.cmv.console checkstyle:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-bronze-loon.sh
-        container: qc.sty_homey-chocolate-civet
+        - /usr/bin/env sh .sqa/script.stinky-viridian-dollar.sh
+        container: qc.sty_skimpy-jade-blue
   QC.Ver:
     repos:
       github.com/cessda/cessda.cmv.console get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-amethyst-catfish.sh
-        container: qc.ver_baggy-apricot-buzzard
+        - /usr/bin/env sh .sqa/script.ready-tomato-caterpillar.sh
+        container: qc.ver_geeky-burgundy-fox
 timeout: 5400
