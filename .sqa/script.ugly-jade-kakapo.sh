@@ -5,5 +5,5 @@
 
 (
 cd github.com/cessda/cessda.cmv.console &&
-    cffconvert --validate
+    licensee detect . --confidence 60 --json 
 )
