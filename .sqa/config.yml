@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: main
+      branch: fix/updatego
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/cessda/cessda.cmv.console:
       branch: main
@@ -15,44 +15,52 @@ sqa_criteria:
     repos:
       github.com/cessda/cessda.cmv.console git:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-red-gorilla.sh
-        container: qc.acc_snoopy-thistle-husky
+        - /usr/bin/env sh .sqa/script.wheat_ambitious_hydra.sh
+        container: qc.acc_onyx_insightful_manatee
   QC.Doc:
     repos:
       github.com/cessda/cessda.cmv.console find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-copper-pinscher.sh
-        container: qc.doc_lanky-aquamarine-fousek
+        - /usr/bin/env sh .sqa/script.echelon_attentive_turkey.sh
+        container: qc.doc_olive_ambitious_ibex
       github.com/cessda/cessda.cmv.console git:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-persimmon-russel.sh
-        container: qc.doc_flabby-harlequin-mule
+        - /usr/bin/env sh .sqa/script.poppy_motivated_platypus.sh
+        container: qc.doc_butter_enigmatic_cheetah
       github.com/cessda/cessda.cmv.console markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-purple-mule.sh
-        container: qc.doc_ugly-maroon-terrier
+        - /usr/bin/env sh .sqa/script.maroon_driven_turkey.sh
+        container: qc.doc_cayenne_warm_hippopotamus
   QC.Lic:
     repos:
       github.com/cessda/cessda.cmv.console licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-jade-kakapo.sh
-        container: qc.lic_wheezy-mauve-angelfish
+        - /usr/bin/env sh .sqa/script.smoke_warm_goose.sh
+        container: qc.lic_horizon_imaginative_hydra
   QC.Met:
     repos:
       github.com/cessda/cessda.cmv.console cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-rust-stoat.sh
-        container: qc.met_shaky-tan-dalmatian
+        - /usr/bin/env sh .sqa/script.cream_stoic_phoenix.sh
+        container: qc.met_magenta_skeptical_frog
   QC.Sty:
     repos:
       github.com/cessda/cessda.cmv.console checkstyle:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-ecru-monkey.sh
-        container: qc.sty_pokey-pear-iguana
+        - /usr/bin/env sh .sqa/script.daffodil_affectionate_sparrow.sh
+        container: qc.sty_fuchsia_mischievous_chipmunk
+      github.com/cessda/cessda.cmv.console hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.chili_sad_bear.sh
+        container: qc.sty_ceru_trustworthy_raccoon
+      github.com/cessda/cessda.cmv.console jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.porcelain_meticulous_caribou.sh
+        container: qc.sty_lemon_sad_eel
   QC.Ver:
     repos:
       github.com/cessda/cessda.cmv.console get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-alizarin-turkey.sh
-        container: qc.ver_foggy-eggplant-serval
+        - /usr/bin/env sh .sqa/script.chocolate_protective_barracuda.sh
+        container: qc.ver_fandango_innocent_rabbit
 timeout: 5400
